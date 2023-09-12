@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="datetime-local"], select {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#task-priority-high {
+    background-color: #FF4136;
+ 
+}
+
+#task-priority-medium{
+    background-color: #FFDC00;
+
+}
+
+#task-priority-low {
+    background-color: #2ECC40;
+
+}
+
+
+.task-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-list th, .task-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.task-list th {
+    background-color: #f2f2f2;
+}
+
+.completed td {
+    background-color: #2ECC40; 
+    color: #fff; 
+}

@@ -1,178 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision Maths- School and Entrance Mathematics</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils.css">
-<style>
-    @keyframes glowing {
-        0% {
-          color: green; 
-          text-shadow: 0 0 10px green; 
-        }
-        50% {
-          color: #ff9900; 
-          text-shadow: 0 0 20px #ff9900;
-        }
-        100% {
-          color: greenyellow;
-          text-shadow: 0 0 10px greenyellow;
-        }
-      }
-    .glow {
-        font-size: 25px;
-        font-weight: bold;
-        animation: glowing 2s infinite;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Task Manager</title>
 </head>
-
-<body class='overflow-x-hidden'>
-    <div class="container mx-auto">
-        <header>
-            <nav class="flex justify-between">
-                <div class="logo font-bold flex items-center text-blue">Vision Maths Institute</div>
-                <ul class="navbar flex items-center">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Courses</li>
-                    <li>Contact Us</li>
-                    <li><button class="btn">Join Classes</button></li>
-                </ul>
-            </nav>
-            <hr>
-        </header>
-        <main class="min-h-screen">
-            <section class="section1">
-                <div class="flex">
-                    <div class="topleft flex flex-col justify-center px-2">
-                        <div class=" text-center">
-                            <img class="dumbellimg" src="com.png" alt="" height="200">
-                        </div>
-                        <h1 class="my-1 text-center">Join My classes to know the true aspects of maths in the world</h1>
-                        <p class=" text-center"><strong>Unlock your mathematical potential with our expert math coaching program! 
-                            Join us for comprehensive and engaging lessons designed to boost your math skills and confidence. Whether you're preparing for exams, aiming to improve your grades, or simply want to enjoy the beauty of mathematics, our experienced instructors will guide you through the journey.
-                             Get ready to solve complex problems with ease, build a strong foundation in math, and achieve your academic goals.
-                             Enroll today and embark on a transformative mathematical adventure!</strong></p>
-                            <!-- Display the countdown timer in an element -->
-                            <strong><p class="deal text-center glow">Don't Waste Your Time</p></strong>
-                            <div class="buttons">
-                                <button class="btn">Join now</button>
-                                <button class="btn">Contact Us</button>
-                            </div>
-                    </div>
-                    <div class="topright flex justify-center">
-                        <img class="gymimg" src="stu.png" alt="" height="400">
-                    </div>
-                </div>
-            </section>
-            <hr>
-            <section class="section2">
-                <h1 class="text-center my-2">Pricing</h1>
-                <p class="my-2"><b>Our Pricing is made properly for poor students and we provide free contents as much as we can.</b></p>
-                <div class="boxes flex justify-center">
-                    <div class="box">
-                        <h2>Free</h2>
-                        <ul>
-                            <li class="highlighted">₹0/month</li>
-                            <li>Demonstrations of Chapters</li>
-                            <li>Chapter-wise Mock Test</li>
-                            <li>Updation of Entrance exams</li>
-                            <li>Local Access</li>
-                            <li><button class="btn">Register Here</button></li>
-                        </ul>
-                    </div>
-                    <div class="box">
-                        <h2>Community</h2>
-                        <ul>
-                            <li class="highlighted">₹150/month</li>
-                            <li>Advance Content Delivering</li>
-                            <li>New Technology Based Classes</li>
-                            <li>Contact and remote support</li>
-                            <li>24x7 contact access</li>
-                            <li><button class="btn">Register Here</button></li>
-                        </ul>
-                    </div>
-                    <div class="box">
-                        <h2>Foundation</h2>
-                        <ul>
-                            <li class="highlighted">₹500/month</li>
-                            <li>Complex Questions and Tricks Classes</li>
-                            <li>Personal Mentor Support</li>
-                            <li>Unlimited Online Mock Test</li>
-                            <li>Lifetime Membership</li>
-                            <li><button class="btn">Register Here</button></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </section>
-            <hr>
-            <section class="section3">
-                <h1 class="text-center my-2">Study Plans</h1>
-                <div class="container plantable">
-                    <table class="table text-center">
-                      <thead>
-                        <tr>
-                          <th></th><th>Free</th>
-                          <th>Community</th>
-                          <th>Foundation</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row" class="text-start">Public</th>
-                          <td>Yes</td>
-                          <td>Yes</td>
-                          <td>Yes</td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Private</th>
-                          <td>-</td>
-                          <td>Yes</td>
-                          <td>Yes</td>
-                        </tr>
-                      </tbody>
-              
-                      <tbody>
-                        <tr>
-                          <th scope="row" class="text-start">Reference</th>
-                          <td>Yes</td>
-                          <td>Yes</td>
-                          <td>Yes</td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Sharing</th>
-                          <td>-</td>
-                          <td>Yes</td>
-                          <td>Yes</td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Lifetime Membership</th>
-                          <td>-</td>
-                          <td>Yes</td>
-                          <td>Yes</td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Super Tricks</th>
-                          <td>-</td>
-                          <td>-</td>
-                          <td>Yes</td>
-                        </tr>
-                      </tbody>
-                    </table>
-            </section>
-            <hr>
-        </main>
-        <footer>
-            &copy;Copyright  VisionMaths.org | All rights reserved
-        </footer>
-
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <div class="task-form">
+            <input type="text" id="task-input" placeholder="Task description">
+            <input type="datetime-local" id="task-deadline">
+            <select id="task-priority">
+                <option value="high" id="task-priority-high" >High</option>
+                <option value="medium"  id="task-priority-medium" >Medium</option>
+                <option value="low" id="task-priority-low">Low</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <div class="task-list">
+            <table id="tasks">
+                <tr>
+                    <th>Task Description</th>
+                    <th>Deadline</th>
+                    <th>Priority</th>
+                    <th>Timer</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
